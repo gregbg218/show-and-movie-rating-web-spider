@@ -2,3 +2,5 @@
 provides the rating of a show or movie from various rating sites
 
 uses requests,beautifulsoup and IMDbpy
+
+should work for most titles 
