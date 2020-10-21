@@ -73,7 +73,7 @@ def get_meta(name):
 
 
 def main():
-    name=input("Enter Name(without caps):")
+    name=input("Enter Name(without caps or punctuation):")
     rotten=get_rottentomatoes(name)
     #print(rotten)
     meta=get_meta(name)
