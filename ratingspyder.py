@@ -15,7 +15,7 @@ def get_page(url):
 def get_rottentomatoes(name):
     try:
         print("--Rotten tomatoes--")
-        name=name.replace(' ','-')
+        name=name.replace(' ','_')
         url="https://www.rottentomatoes.com/tv/"+name
         soup=get_page(url)
         rating=soup.find('span', class_='mop-ratings-wrap__percentage')
